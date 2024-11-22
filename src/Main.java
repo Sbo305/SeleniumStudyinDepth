@@ -50,7 +50,7 @@ public class Main {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("input[type='checkbox']:nth-of-type(2)")).click();
 
-Right click function
+//Right click function
         driver.findElement(By.linkText("Context Menu")).click();
         Thread.sleep(1000);
         WebElement rightc= driver.findElement(By.id("hot-spot"));
