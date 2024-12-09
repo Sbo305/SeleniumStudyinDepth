@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="6th commit with incomplete Dynamic Controls">
+    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="6th* commit with complete Dynamic Controls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -214,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732651119064</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="6th* commit with complete Dynamic Controls">
+      <option name="closed" value="true" />
+      <created>1733739017787</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733739017787</updated>
+    </task>
+    <task id="LOCAL-00020" summary="6th* commit with complete Dynamic Controls">
+      <option name="closed" value="true" />
+      <created>1733739151167</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733739151167</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +255,8 @@
     <MESSAGE value="5th commit" />
     <MESSAGE value="5th* commit" />
     <MESSAGE value="6th commit with incomplete Dynamic Controls" />
-    <option name="LAST_COMMIT_MESSAGE" value="6th commit with incomplete Dynamic Controls" />
+    <MESSAGE value="6th* commit with complete Dynamic Controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th* commit with complete Dynamic Controls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -52,7 +52,7 @@ public class Main {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("input[type='checkbox']:nth-of-type(2)")).click();
 
-////Right click function
+//Right click function
         driver.findElement(By.linkText("Context Menu")).click();
         Thread.sleep(1000);
         WebElement rightc= driver.findElement(By.id("hot-spot"));
@@ -63,7 +63,7 @@ public class Main {
         Thread.sleep(1000);
         driver.navigate().back();
 
-////Auth from Javascript alert
+//Auth from Javascript alert
         driver.findElement(By.linkText("Digest Authentication")).click();
         Thread.sleep(1000);
         driver.get("https://admin:admin@the-internet.herokuapp.com/digest_auth");
@@ -106,7 +106,7 @@ public class Main {
         driver.navigate().back();
         driver.findElement(By.linkText("Home")).click();
 
-////Drag and drop
+//Drag and drop
         driver.findElement(By.linkText("Drag and Drop")).click();
         Thread.sleep(3000);
         Actions DnD=new Actions(driver);
@@ -184,14 +184,22 @@ public class Main {
         Thread.sleep(2000);
         disableButton.click();
         Thread.sleep(3000);
+        driver.navigate().back();
 
+        driver.findElement(By.linkText("Dynamic Loading")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.linkText("Example 1: Element on page that is hidden")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[text()='Start']")).click();
+        Thread.sleep(10000);
+        driver.navigate().back();
 
-
-
-
-
-        
-
+        Thread.sleep(2000);
+        driver.findElement(By.linkText("Example 2: Element rendered after the fact")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[text()='Start']")).click();
+        Thread.sleep(10000);
+        driver.navigate().back();
 
 
 
