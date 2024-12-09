@@ -52,7 +52,7 @@ public class Main {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("input[type='checkbox']:nth-of-type(2)")).click();
 
-//Right click function
+////Right click function
         driver.findElement(By.linkText("Context Menu")).click();
         Thread.sleep(1000);
         WebElement rightc= driver.findElement(By.id("hot-spot"));
@@ -63,7 +63,7 @@ public class Main {
         Thread.sleep(1000);
         driver.navigate().back();
 
-//Auth from Javascript alert
+////Auth from Javascript alert
         driver.findElement(By.linkText("Digest Authentication")).click();
         Thread.sleep(1000);
         driver.get("https://admin:admin@the-internet.herokuapp.com/digest_auth");
@@ -106,7 +106,7 @@ public class Main {
         driver.navigate().back();
         driver.findElement(By.linkText("Home")).click();
 
-//Drag and drop
+////Drag and drop
         driver.findElement(By.linkText("Drag and Drop")).click();
         Thread.sleep(3000);
         Actions DnD=new Actions(driver);
@@ -153,14 +153,44 @@ public class Main {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[@type='button' and @onclick='swapCheckbox()']")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         WebElement loadingElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("loading")));
 
         if(loadingElement.isDisplayed()){
 
             System.out.println(loadingElement.getText());
+
         }
+
+        WebDriverWait waitsecButton = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement secButton = waitsecButton.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Add']")));
+        Thread.sleep(2000);
+        secButton.click();
+        WebElement messageElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("message")));
+        if(messageElement.isDisplayed()){
+            System.out.println(messageElement.getText());
+
+        }
+
+        WebDriverWait waitenableButton = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement enableButton = waitenableButton.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Enable']")));
+        Thread.sleep(2000);
+        enableButton.click();
+
+        Thread.sleep(3000);
+        WebDriverWait waitdisableButton = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement disableButton = waitdisableButton.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Disable']")));
+        Thread.sleep(2000);
+        disableButton.click();
+        Thread.sleep(3000);
+
+
+
+
+
+
+        
 
 
 
