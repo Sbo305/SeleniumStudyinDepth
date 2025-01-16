@@ -201,6 +201,16 @@ public class Main {
         Thread.sleep(10000);
         driver.navigate().back();
 
+        driver.get("https://the-internet.herokuapp.com");
+        driver.findElement(By.linkText("Entry Ad")).click();
+        Thread.sleep(3000);
+        driver.switchTo().activeElement();
+        Thread.sleep(3000);
+        WebElement closeButton = driver.findElement(By.xpath("//div[@class='modal-footer']/p[text()='Close']"));
+        closeButton.click();
+        Thread.sleep(3000);
+        driver.navigate().back();
+
 
 
 
