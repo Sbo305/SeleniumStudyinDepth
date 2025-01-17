@@ -6,12 +6,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.*;
 import java.time.Duration;
 
 
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, AWTException {
         System.setProperty("webdriver.chrome.driver", "/Users/sbongisenindwandwe/Documents/JavaProjects/SeleniumStudyinDepth/Drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
@@ -210,7 +211,20 @@ public class Main {
         closeButton.click();
         Thread.sleep(3000);
         driver.navigate().back();
+        Thread.sleep(3000);
 
+
+        driver.findElement(By.linkText("Exit Intent")).click();
+        Thread.sleep(3000);
+        Robot robot = new Robot();
+        robot.mouseMove(600, 0);
+        driver.switchTo().activeElement();
+        Thread.sleep(3000);
+        WebElement closeexitmodal = driver.findElement(By.xpath("//div[@class='modal-footer']/p[text()='Close']"));
+        closeexitmodal.click();
+        Thread.sleep(3000);
+        driver.navigate().back();
+        Thread.sleep(3000);
 
 
 
