@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="Code how to handle Modal has been added">
+    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="9th commit - Exit Intent code has been added, Robot class was used.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -246,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737059697933</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="9th commit - Exit Intent code has been added, Robot class was used.">
+      <option name="closed" value="true" />
+      <created>1737143097119</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737143097119</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +282,8 @@
     <MESSAGE value="6th* commit with complete Dynamic Controls" />
     <MESSAGE value="7th commit with Dynamic loading" />
     <MESSAGE value="Code how to handle Modal has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code how to handle Modal has been added" />
+    <MESSAGE value="9th commit - Exit Intent code has been added, Robot class was used." />
+    <option name="LAST_COMMIT_MESSAGE" value="9th commit - Exit Intent code has been added, Robot class was used." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

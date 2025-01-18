@@ -226,9 +226,15 @@ public class Main {
         driver.navigate().back();
         Thread.sleep(3000);
 
-
-
-
+        driver.findElement(By.linkText("File Download")).click();
+        Thread.sleep(3000);
+        driver.findElement(By.linkText("mytest.pdf")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.linkText("bb.txt")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.linkText("wel.png")).click();
+        Thread.sleep(3000);
+        driver.navigate().back();
 
 
         System.out.println("Successfully launched Chrome on fullscreen mode!");
