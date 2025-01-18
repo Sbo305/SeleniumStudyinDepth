@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="10th commit - File Download code has been added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="10th commit - File Upload code has been added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -270,7 +268,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737185984402</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="10th commit - File Upload code has been added.">
+      <option name="closed" value="true" />
+      <created>1737190771383</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737190771383</updated>
+    </task>
+    <task id="LOCAL-00027" summary="10th commit - File Upload code has been added.">
+      <option name="closed" value="true" />
+      <created>1737190804810</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737190804810</updated>
+    </task>
+    <task id="LOCAL-00028" summary="10th commit - File Upload code has been added.">
+      <option name="closed" value="true" />
+      <created>1737190891132</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737190891132</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +322,8 @@
     <MESSAGE value="Code how to handle Modal has been added" />
     <MESSAGE value="9th commit - Exit Intent code has been added, Robot class was used." />
     <MESSAGE value="10th commit - File Download code has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="10th commit - File Download code has been added." />
+    <MESSAGE value="10th commit - File Upload code has been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="10th commit - File Upload code has been added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

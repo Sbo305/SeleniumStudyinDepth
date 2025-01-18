@@ -238,7 +238,6 @@ public class Main {
         driver.navigate().back();
 
         File fileToUpload=new File("/Users/sbongisenindwandwe/Downloads/mytest.pdf");
-        File iFile=new File("/Users/sbongisenindwandwe/Downloads/mytest.pdf");
 
         driver.findElement(By.linkText("File Upload")).click();
         Thread.sleep(3000);
