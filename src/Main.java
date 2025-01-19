@@ -264,7 +264,17 @@ public class Main {
         driver.get("https://the-internet.herokuapp.com");
         Thread.sleep(2000);
 
-
+        driver.findElement(By.linkText("Forgot Password")).click();
+        Thread.sleep(2000);
+        WebElement emailbox=driver.findElement(By.name("email"));
+        emailbox.sendKeys("sboqa@mailnator.com");
+        Thread.sleep(2000);
+        driver.findElement(By.id("form_submit")).click();
+        Thread.sleep(3000);
+        driver.navigate().back();
+        Thread.sleep(2000);
+        driver.get("https://the-internet.herokuapp.com");
+        Thread.sleep(2000);
 
 
         System.out.println("Successfully launched Chrome on fullscreen mode!");
