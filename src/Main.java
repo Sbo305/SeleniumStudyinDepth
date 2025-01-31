@@ -306,8 +306,8 @@ public class Main {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[@onclick='getLocation()' and text()='Where am I?']")).click();
         Thread.sleep(2000);
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='See it on Google']"))).click();
+        WebDriverWait iwait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        iwait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='See it on Google']"))).click();
         Thread.sleep(2000);
 
 
