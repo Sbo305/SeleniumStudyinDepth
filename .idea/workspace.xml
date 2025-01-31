@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="13th commit - Form Authentication code has been added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="28274125-9e9a-42ed-92a0-f915be294d53" name="Changes" comment="14th commit - Frames and Geoloacation code has been added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +12,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -343,7 +339,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737889727768</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="14th commit - Frames and Geoloacation code has been added.">
+      <option name="closed" value="true" />
+      <created>1738327246327</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1738327246327</updated>
+    </task>
+    <task id="LOCAL-00036" summary="14th commit - Frames and Geoloacation code has been added.">
+      <option name="closed" value="true" />
+      <created>1738327273999</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1738327273999</updated>
+    </task>
+    <task id="LOCAL-00037" summary="14th commit - Frames and Geoloacation code has been added.">
+      <option name="closed" value="true" />
+      <created>1738327331113</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1738327331113</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +397,8 @@
     <MESSAGE value="11th commit - Floating Menu code has been added." />
     <MESSAGE value="12th commit - Forgot password code has been added." />
     <MESSAGE value="13th commit - Form Authentication code has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="13th commit - Form Authentication code has been added." />
+    <MESSAGE value="14th commit - Frames and Geoloacation code has been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="14th commit - Frames and Geoloacation code has been added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
